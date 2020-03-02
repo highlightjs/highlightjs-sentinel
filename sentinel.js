@@ -14,7 +14,7 @@ Website: https://docs.hashicorp.com/sentinel
 function(hljs) {
   var SENTINEL_KEYWORDS = {
     keyword:
-      'as default func rule return break continue when if case for any all import param',
+      'as default func rule return break continue when if case for filter any all import param',
     literal: 'true false null undefined',
     built_in:
       'append delete error keys length print range values int float string bool'
