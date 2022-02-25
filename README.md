@@ -20,7 +20,7 @@ If you're not using a build system and just want to embed this in your webpage:
 <script type="text/javascript" src="/path/to/highlightjs-sentinel/sentinel.js"></script>
 <script type="text/javascript">
     hljs.registerLanguage('sentinel', hljsDefineSentinel);
-    hljs.initHighlightingOnLoad();
+    hljs.highlightAll();
 </script>
 ```
 
@@ -31,7 +31,7 @@ var hljs = require('highlightjs');
 var hljsDefineSentinel = require('highlightjs-sentinel');
 
 hljsDefineSentinel(hljs);
-hljs.initHighlightingOnLoad();
+hljs.highlightAll();
 ```
 
 ### Advanced
